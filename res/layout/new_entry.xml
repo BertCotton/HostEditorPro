@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:layout_weight="1"
+              android:background="@android:color/background_dark">
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical">
+
+        <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/newentry_ipAddress"
+                android:id="@+id/textView"
+                android:layout_gravity="left|center_vertical"
+                android:gravity="right"/>
+
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:id="@+id/newEntry_ipaddress_input"
+                android:enabled="true"
+                android:editable="true"
+                android:inputType="phone"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+        android:measureWithLargestChild="false"
+        android:layout_weight="1">
+
+        <TextView
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/newentry_hosts"
+                android:id="@+id/textView2"
+                android:layout_gravity="left|center_vertical"
+                android:gravity="right|top"/>
+
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/newentry_hosts_input"
+                android:editable="true"
+                android:enabled="true"
+                android:gravity="left|top"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_save"
+                android:id="@+id/newentry_save_button"
+                android:layout_gravity="left|center_vertical"/>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_cancel"
+                android:id="@+id/newentry_cancel_button"
+                android:layout_gravity="center"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hosts Editor Gold</string>
+    <string name="menu_new_entry">New Entry</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="menu_toggle">Toggle Selected</string>
+    <string name="menu_delete">Delete Selected</string>
+    <string name="menu_backups">Backups</string>
+    <string name="menu_backups_refresh">Refresh Backups</string>
+    <string name="menu_hide_localhost">Hide Localhost</string>
+    <string name="menu_show_localhost">Show Localhost</string>
+    <string name="menu_show_comments">Show Comments</string>
+    <string name="menu_hide_comments">Hide Comments</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_backup">Backup</string>
+    <string name="menu_restore">Restore</string>
+    <string name="save_complete">Hosts File Saved</string>
+    <string name="ok">Ok</string>
+    <string name="large_file_alert">The hosts file on this large is large and presumably holds many entries.\n\nAny modifications to this list will more than likely take some time, so please be patient.\n\nThe speed is directly proportional to the performance of this device.\n\n\nThanks for your understanding.</string>
+	<string name="newentry_ipAddress">IP Address</string>
+	<string name="newentry_hosts">Hosts</string>
+	<string name="btn_save">Save</string>
+	<string name="btn_cancel">Cancel</string>
+	<string name="backup_dialog_restore">Restore</string>
+	<string name="backup_dialog_delete">Delete</string><string name="backup_dialog_cancel">Cancel</string>
+    <string name="backups_btnRestore">Restore</string>
+    <string name="backups_btnDelete">Delete</string>
+    <string name="backups_btnCancel">Cancel</string><string name="searchTitle">Search Hosts</string><string name="search_btnGo">Search</string>
+    <string name="search_not_found">Nothing found for searched value</string>
+</resources>

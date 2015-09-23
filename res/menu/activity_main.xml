@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_search" android:title="@string/menu_search" android:orderInCategory="100" android:showAsAction="never"/>
+    <item android:id="@+id/menu_new_entry" android:title="@string/menu_new_entry" android:orderInCategory="100" android:showAsAction="never"/>
+    <item android:id="@+id/menu_toggle" android:title="@string/menu_toggle" android:orderInCategory="200" android:showAsAction="never" />
+    <item android:id="@+id/menu_delete" android:title="@string/menu_delete" android:orderInCategory="300" android:showAsAction="never" />
+    <item android:id="@+id/menu_backup" android:title="@string/menu_backup" android:orderInCategory="100" android:showAsAction="never"/>
+    <item android:id="@+id/menu_refresh" android:title="@string/menu_backups_refresh" android:orderInCategory="200" android:showAsAction="never"/>
+</menu>
